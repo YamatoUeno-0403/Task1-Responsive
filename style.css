@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    background-color: #ff9a4b;
+}
+footer{
+    height: 50px;
+    background-color: #aaaaaa;
+}
+
+main{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+    height: auto;
+}
+
+.btn{
+    background-color:#eeee;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.contents{
+    position: absolute;
+    display: inline-block;
+    background-color:#ff9a4b ;
+    width: auto;
+    height: auto;
+    color: white;
+}
+.center{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.box1{
+    background-image:url(img/flow01.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 0 10px;
+}
+
+.box2{
+    background-image:url(img/flow02.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 0 10px;
+}
+
+.box3{
+    background-image:url(img/flow03.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 10px 0 10px;
+}
+
+.btn h3{
+    margin: 15px 0 5px 0;
+}
+/* -------------------------------------- */
+@media screen and (max-width:768px) {
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .btn{
+        width: 90%;
+        margin:  auto;
+        padding-top: 5px;
+    }
+    .container{
+
+        width: 100%;
+        display: inline-block;
+    }
+    .center{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+  }
